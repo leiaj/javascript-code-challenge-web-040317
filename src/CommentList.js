@@ -8,11 +8,14 @@ class CommentList{
 		this.comments.map(function(comment){
 			//comment = comment obj  w/ txt
 			//comment.text = "comment string"
-			return `<ul>${comment.text.render()}</ul>`
+			debugger
+			return `<ul>${comment.text.render(this)}</ul>`
 			//comment.render() returns "<li>[object Object]</li>"
 			//comment.text.render() returns "<li>Yay</li>"
 
 		})
+		//y do u return undefined!??!!?
+
 	}
 
 	addComment(text){

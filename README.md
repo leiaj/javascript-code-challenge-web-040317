@@ -20,7 +20,9 @@ We're building out a commenting feature in our application with no persistence. 
 <!-- 1. create a constructor for a `Comment`. New comments should initialize with some text. -->
 <!-- 2. instances of comments should have a prototype method called 'render' that returns a string of an `li` with that comment's text inside. -->
 <!-- 3. create a constructor for a `CommentList`. New comment lists should initialize with an array of comments (this will be empty to start). -->
-4. instances of CommentList should have a method called 'render' that returns a string of a `ul`. Inside of the ul, the comment list should include the return value of the render method of all of it's comments.
+4. instances of CommentList 
+(comlist = new CommentList())
+should have a method called 'render' that returns a string of a `ul`. Inside of the ul, the comment list should include the return value of the render method of all of it's comments.
 <!-- 5. instances of CommentList should have a method called 'addComment' that takes in a string. It should instantiate a new Comment and add it to the CommentList's array of comments. -->
 
 ## Part Two - The DOM
