@@ -1,3 +1,14 @@
 $(document).ready(function(){
-  // your code here!
+
+$('#note-form').submit(function(event){
+	event.preventDefault()
+	const comment = $('#comment-input').val()
+	$('#comment-list').append(comment)
+	$('#comment-input').val('')
+
+})
+
+
+
+
 })
