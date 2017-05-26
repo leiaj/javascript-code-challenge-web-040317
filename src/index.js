@@ -10,5 +10,4 @@ $('#note-form').submit(function(event){
 
 
 
-
 })
